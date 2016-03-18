@@ -18,7 +18,7 @@ exports.getRepos = function(username){
         });
     }
   }).fail(function(error){
-    console.log(error.responseJSON.message);
+    $('.showRepositories').text("User " + error.responseJSON.message);
   });
 };
 
