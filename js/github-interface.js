@@ -4,11 +4,11 @@
 $(document).ready(function() {
 
   $('#repositories').click(function(response) {
-    var name = $('#name').val();
+    var username = $('#name').val();
     $('#name').val("");
     // var repoNumber = getRepoNum;
 
-    getRepos(name);
+    getRepos(username);
 
 
   });
