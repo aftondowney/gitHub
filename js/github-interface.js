@@ -3,7 +3,9 @@
 
 $(document).ready(function() {
 
-  $('#repositories').click(function(response) {
+  $('#repositories').click(function(event) {
+    event.preventDefault();
+
     var username = $('#name').val();
     $('#name').val("");
     // var repoNumber = getRepoNum;
