@@ -47,9 +47,9 @@ gulp.task('build', ['clean'], function(){
     gulp.start('minifyScripts');
   } else {
     gulp.start('jsBrowserify');
+    gulp.start('bower');
+    gulp.start('cssBuild');
   }
-  gulp.start('bower');
-  gulp.start('cssBuild');
 });
 
 gulp.task("clean", function(){
