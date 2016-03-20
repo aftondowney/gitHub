@@ -8,10 +8,14 @@
   </head>
   <body>
     <div class="container">
-      <h2>Find a GitHub User</h2>
-      <label for="name">Enter a GitHub username:</label>
-      <input id="name" type="text">
-      <button class="btn-success" id="repositories">Get Repositories</button>
+      <div class="jumbotron">
+        <h2>Find a GitHub User</h2>
+      </div>
+      <form class="form">
+        <label for="name">Enter a GitHub username:</label>
+        <input id="name" type="text">
+        <button class="btn" id="repositories">Get Repositories</button>
+      </form>
       <div class="showRepositories"></div>
     </div>
   </body>

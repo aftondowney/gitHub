@@ -1,11 +1,42 @@
 $background: #0f1860;
 $font: #e1a7b4;
+$jumbotron: #6b8aca;
+$button: #8d6792;
+$light: #ede3e0;
 
 body {
   background-color: $background;
   color: $font;
 }
 
- .showRepositories {
+.jumbotron {
+  background-color: $jumbotron;
+  text-align: center;
+
+  h2 {
+    font-size: 60px;
+    color: $background;
+  }
+}
+
+form {
+  font-size: 20px;
+
+  #name {
+    background-color: $light;
+    color: $background;
+  }
+
+  .btn {
+    background-color: $button;
+    color: $background;
+  }
+}
+
+.intro {
+  font-size: 30px;
+}
+ .name {
   font-weight: bold;
+  font-size: 20px;
  }
